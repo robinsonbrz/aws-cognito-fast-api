@@ -1,16 +1,12 @@
 # AWS Cognito with Fastapi
 
-## by awsmasterchef
 
-API Authentication Using AWS Cognito | Python Flask FastAPI
-
-https://www.youtube.com/watch?v=KJ3R3pa6PnU
 
 Traduzido e adaptado por @robinsonbrz
 
 ## Setup python e .env
 
-Criar pool cognito na AWS e extrair as informações e colar no arquivo **.envEXEMPLO**
+Criar pool cognito na AWS e extrair as informações e colar no arquivo **envEXEMPLO**
 
 ```sh
 POOL_REGION=us-east-1
@@ -18,7 +14,7 @@ POOL_ID=us-east-1_Wasddas
 CLIENT_ID=6n1oasdghyjyjjgh4
 ```
 
-Renomear o arquivo **.envEXEMPLO** para **.env**
+Renomear o arquivo **.envEXEMPLO** para **env**
 
 ## Criar o ambiente virtual
 
@@ -79,3 +75,13 @@ python main.py
 Colar no modo autenticação bearer Token
 
 ![](assets/ksnip_20240903-160723.png)
+
+
+Referências:
+
+https://aws.amazon.com/cognito
+
+
+API Authentication Using AWS Cognito | Python Flask FastAPI by awsmasterchef
+
+https://www.youtube.com/watch?v=KJ3R3pa6PnU
